@@ -17,12 +17,8 @@ section{
     background-color: rgb(23, 45, 46);
     position: relative;
     display: flex;
-    z-index: -2;
     border-top-left-radius:  10px;
     border-bottom-left-radius:  10px;
-}
-.phone-bg{
-    position: absolute;
 }
 .leftText{
     position: absolute;
@@ -50,6 +46,8 @@ section{
 .phone-bg img{
     width: 500px;
     height: 650px;
+    position: absolute;
+    z-index: 4;
 }
 .container2{
     width: 500px;
